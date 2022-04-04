@@ -30,6 +30,7 @@ Click on index.html to open it on browser
 Now you can interact with the browser
 
 ### Repo link
+https://github.com/Aqeela66/Project
 
 
 ### Live link
