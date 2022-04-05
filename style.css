@@ -1138,7 +1138,7 @@ button.swiper-pagination-bullet {
 
 
        .main-scroll-div{
-           height:10%;
+           display:flex;
            width:100%;
            background-color: antiquewhite;
         }
