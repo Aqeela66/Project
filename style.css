@@ -1220,3 +1220,40 @@ button.swiper-pagination-bullet {
             color:rgb(25, 106, 20);
 
         }
+
+
+        /* Float four columns side by side */
+.column3 {
+    float: left;
+    float: right;
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row3 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column3 {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+  }
+  
