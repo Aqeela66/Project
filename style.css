@@ -1024,26 +1024,26 @@ button.swiper-pagination-bullet {
 }
 
 
-.col .oldPrice {
+ .oldPrice {
     text-decoration: line-through;
     color: rgb(126, 133, 155);
     margin-right: 4px;
 }
-.col .discount {
+ .discount {
     color: rgb(56, 174, 4);
     font-weight: bold;
     text-transform: uppercase;
 }
-.col .em {
+.em {
     font-weight: bold;
 }
-.col .ratingValue {
+ .ratingValue {
     color: rgb(245, 165, 35);
     font-weight: bold;
     margin-left: 2px;
     margin-right: 4px;
 }
-.col .ratingCount .count {
+.ratingCount .count {
     margin: 0px 1px;
     color:rgb(32, 103, 208);
 }
