@@ -1135,3 +1135,88 @@ button.swiper-pagination-bullet {
            transform: rotateZ(-45deg);
 
        }
+
+.main-scroll-div{
+           height:80%;
+           width:100%;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           background-color: antiquewhite;
+        }
+        .cover{
+            position:relative;
+            width:90%;
+            height:50%;
+
+        }
+        .cover::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top:0;
+            z-index: 99;
+            height: 100%;
+            width:100px;
+            background-color: linear-gradient(90deg,black,transparent);
+
+
+
+        }
+        .cover::after{
+            position: absolute;
+            content: "";
+            right: 0;
+            top:0;
+            z-index: 99;
+            height: 100%;
+            width:100px;
+            background-color: linear-gradient(90deg,black,transparent);
+            
+
+
+        }
+        .scroll-images{
+            width:100%;
+            height: auto;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            overflow: auto;
+            position: relative;
+            scroll-behavior: smooth;
+
+
+        }
+        .scroll-images::-webkit-scrollbar{
+            -webkit-appearance: none;
+            
+        }
+        .child{
+           min-width:100px;
+              height: 100px;
+              margin: 1px 5px;
+              cursor: pointer; 
+              overflow: hidden;
+              
+        }
+        .child-image{
+            
+            width: 100%;
+            height: 100%;
+
+        }
+        .icon{
+            color: rgb(13, 14, 14);
+            background-color: antiquewhite;
+            font-size: 50px;
+            outline: none;
+            border:none;
+            padding: 0px;
+            cursor: pointer;
+
+        }
+        .icon:hover{
+            color:rgb(25, 106, 20);
+
+        }
