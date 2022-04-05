@@ -1136,18 +1136,17 @@ button.swiper-pagination-bullet {
 
        }
 
-.main-scroll-div{
-           height:80%;
+
+       .main-scroll-div{
+           height:10%;
            width:100%;
            display: flex;
-           align-items: center;
-           justify-content: space-between;
            background-color: antiquewhite;
         }
         .cover{
             position:relative;
-            width:90%;
-            height:50%;
+            width:95%;
+            height:60%;
 
         }
         .cover::before{
@@ -1181,7 +1180,7 @@ button.swiper-pagination-bullet {
             height: auto;
             display: flex;
             justify-content: left;
-            align-items: center;
+            align-items: left;
             overflow: auto;
             position: relative;
             scroll-behavior: smooth;
