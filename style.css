@@ -1142,6 +1142,7 @@ button.swiper-pagination-bullet {
            width:100%;
 	   display:flex;
            background-color: antiquewhite;
+	       align-items: center;
         }
         .cover{
             position:relative;
